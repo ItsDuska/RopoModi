@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "amogusmoment",
+  "version": "${version}",
+
+  "name": "Amogus Moment Mod",
+  "description": "Epic amogus gaming moment",
+  "authors": [
+    "ItsDuska!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/ItsDuska/RandomMcModTestThingYesYes"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.itsduska.amogusmoment.AmogusMoment"
+    ]
+  },
+  "mixins": [
+    "amogusmoment.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
