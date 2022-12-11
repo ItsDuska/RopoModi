@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "amogusmoment:block/cobbled_dirt"
+  }
+}

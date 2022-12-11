@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.itsduska.amogusmoment.AmogusMoment"
+    ],
+    "client": [
+      "net.itsduska.amogusmoment.AmogusMomentClient"
     ]
   },
   "mixins": [

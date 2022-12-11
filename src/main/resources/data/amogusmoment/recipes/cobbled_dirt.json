@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+ "key":{
+   "D": {
+     "item": "minecraft:dirt"
+   },
+   "C": {
+     "item": "minecraft:cobblestone"
+   }
+ },
+  "pattern": [
+    "DC",
+    "CD"
+  ],
+  "result": {
+    "count": 4,
+    "item": "amogusmoment:cobbled_dirt"
+  }
+}
