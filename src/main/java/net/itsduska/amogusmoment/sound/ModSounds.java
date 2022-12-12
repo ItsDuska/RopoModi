@@ -13,7 +13,9 @@ public class ModSounds {
         Identifier id = new Identifier(AmogusMoment.MOD_ID,name);
         return Registry.register(Registry.SOUND_EVENT,id,new SoundEvent(id));
     }
-
+    public static void registerModSounds(){
+        AmogusMoment.LOGGER.debug("Registering Mod Sounds for " + AmogusMoment.MOD_ID);
+    }
 }
 //custom amogus itemissa laita tää jotta soi ääni
 //context.getWorld.playSound(player,positionClicked, ModSounds.AMOGUS, SoundCategory.BLOCKS, 1f,1f);
